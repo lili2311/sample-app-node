@@ -10,6 +10,10 @@
   margin-top: 0.5em;
 }
 
+.header {
+  margin-bottom: 10em;
+}
+
 .register-fail, .login-fail {
   margin-bottom: 1em;
 }
