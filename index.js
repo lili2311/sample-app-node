@@ -11,8 +11,8 @@ app.set('view engine', 'jade');
 app.use(express.static(path.join(__dirname, 'public')));
 
 //Your Api key-secret pair for Authentication
-var zoom_key = 'SquD4N2iQ8eZq801CJXReg';
-var zoom_sec = 'Fk4gF3L9lBAatIjjFnXszTnSlXsfbstBuPTg';
+var zoom_key = '{{YOUR_CLIENT_ID}}';
+var zoom_sec = '{{YOUR_CLIENT_SECRET}}';
 
 var router = express.Router();
 
